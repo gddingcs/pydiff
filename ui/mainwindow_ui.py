@@ -22,12 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-from Tkinter import *
-#from Tkinter.ttk import *
-from tkMessageBox import showerror
-from tkFont import Font
-import ttk
-from ttk import Treeview
+from tkinter import *
+from tkinter.messagebox import showerror
+from tkinter.font import Font
+import tkinter.ttk
+from tkinter.ttk import Treeview
 import os
 from ui.searchtextdialog import *
 
